@@ -80,7 +80,9 @@ curl "http://localhost:5000/restaurants/open?datetime=2025-03-23T12:00:00"
       "Yard House",
       "Gringo a Gogo",
       "Brewery Bhavana",
-      "Dashi"]}
+      "Dashi"
+   ]
+}
 ```
 
 ### Error Responses
