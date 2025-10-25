@@ -51,14 +51,14 @@ The API will start on `http://localhost:5000` in both cases.
 Check which restaurants were open on my birthday this year:
 
 ```bash
-curl "http://localhost:5000/restaurants/open?datetime=2025-03-23T12:00:00"
+curl "http://localhost:5000/restaurants/open?datetime=2025-03-22T12:00:00"
 ```
 
 ### Example Response
 
 ```json
 {
-   "datetime":"2025-03-23T12:00:00",
+   "datetime":"2025-03-22T12:00:00",
    "open_restaurants":[
       "The Cowfish Sushi Burger Bar",
       "Morgan St Food Hall",
