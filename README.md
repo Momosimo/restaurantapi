@@ -48,7 +48,7 @@ The API will start on `http://localhost:5000` in both cases.
 
 ### Example Request
 
-Check which restaurants were open on my birthday this year:
+Check which restaurants were open on a given date this year:
 
 ```bash
 curl "http://localhost:5000/restaurants/open?datetime=2025-03-22T12:00:00"
